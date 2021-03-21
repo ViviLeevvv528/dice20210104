@@ -28,17 +28,22 @@ class ViewController: UIViewController {
         for imageView in PCdiceImageViews {
         let number = Int.random(in: 1...6)
         imageView.image = UIImage(systemName: "die.face.\(number).fill")
+            sumPC += number
         }
         for imageView in YoudiceImageViews {
         let number = Int.random(in: 1...6)
         imageView.image = UIImage(systemName: "die.face.\(number).fill")
+            sumYou += number
         }
-
+        print(sumPC)
+        print(sumYou)
+        resultImage.isHidden = false
+        if sumYou > sumPC{
         resultImage.image = UIImage(named: "win")
-        
+        }
+        else {
         resultImage.image = UIImage(named: "lose")
-        
-
+        }
     }
     
 }
