@@ -17,17 +17,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="die.face.6.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="exP-7u-1Dk" userLabel="dice1">
-                                <rect key="frame" x="-35" y="235.66666666666674" width="240" height="128"/>
+                                <rect key="frame" x="-22" y="235.66666666666674" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemIndigoColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="die.face.6.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ClM-Lz-0xE" userLabel="dice2">
-                                <rect key="frame" x="-37" y="373.66666666666674" width="240" height="128"/>
+                                <rect key="frame" x="-24" y="373.66666666666674" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemIndigoColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="die.face.6.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lcO-ZC-1W4" userLabel="dice3">
-                                <rect key="frame" x="-37" y="511.66666666666674" width="240" height="128"/>
+                                <rect key="frame" x="-24" y="511.66666666666674" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemIndigoColor"/>
                             </imageView>
@@ -69,7 +69,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ep-n1-Ig2">
-                                <rect key="frame" x="50" y="162" width="65" height="58"/>
+                                <rect key="frame" x="63" y="162" width="65" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemIndigoColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
@@ -82,12 +82,12 @@
                     </view>
                     <connections>
                         <outlet property="resultImage" destination="Vx2-N0-bw4" id="fad-RJ-g0K"/>
-                        <outletCollection property="dicePCImageview" destination="exP-7u-1Dk" collectionClass="NSMutableArray" id="mEI-KF-aus"/>
-                        <outletCollection property="diceYouImageview" destination="Jhz-Ir-uGC" collectionClass="NSMutableArray" id="fq0-Mf-mL9"/>
-                        <outletCollection property="dicePCImageview" destination="ClM-Lz-0xE" collectionClass="NSMutableArray" id="YhS-wz-HOM"/>
-                        <outletCollection property="dicePCImageview" destination="lcO-ZC-1W4" collectionClass="NSMutableArray" id="3Ve-6J-xrk"/>
-                        <outletCollection property="diceYouImageview" destination="Gjh-nE-ccg" collectionClass="NSMutableArray" id="9jI-yg-jrv"/>
-                        <outletCollection property="diceYouImageview" destination="8k6-4n-GHY" collectionClass="NSMutableArray" id="txR-17-9D9"/>
+                        <outletCollection property="diceImageViews" destination="Gjh-nE-ccg" collectionClass="NSMutableArray" id="9Ft-g6-y6A"/>
+                        <outletCollection property="diceImageViews" destination="Jhz-Ir-uGC" collectionClass="NSMutableArray" id="alY-Jy-IAk"/>
+                        <outletCollection property="diceImageViews" destination="8k6-4n-GHY" collectionClass="NSMutableArray" id="keC-yo-5ae"/>
+                        <outletCollection property="diceImageViews" destination="exP-7u-1Dk" collectionClass="NSMutableArray" id="hqY-mT-QTR"/>
+                        <outletCollection property="diceImageViews" destination="ClM-Lz-0xE" collectionClass="NSMutableArray" id="srA-OM-xGa"/>
+                        <outletCollection property="diceImageViews" destination="lcO-ZC-1W4" collectionClass="NSMutableArray" id="sV6-tX-dAX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
