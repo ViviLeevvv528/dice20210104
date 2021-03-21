@@ -82,12 +82,12 @@
                     </view>
                     <connections>
                         <outlet property="resultImage" destination="Vx2-N0-bw4" id="fad-RJ-g0K"/>
-                        <outletCollection property="diceImageViews" destination="Gjh-nE-ccg" collectionClass="NSMutableArray" id="9Ft-g6-y6A"/>
-                        <outletCollection property="diceImageViews" destination="Jhz-Ir-uGC" collectionClass="NSMutableArray" id="alY-Jy-IAk"/>
-                        <outletCollection property="diceImageViews" destination="8k6-4n-GHY" collectionClass="NSMutableArray" id="keC-yo-5ae"/>
-                        <outletCollection property="diceImageViews" destination="exP-7u-1Dk" collectionClass="NSMutableArray" id="hqY-mT-QTR"/>
-                        <outletCollection property="diceImageViews" destination="ClM-Lz-0xE" collectionClass="NSMutableArray" id="srA-OM-xGa"/>
-                        <outletCollection property="diceImageViews" destination="lcO-ZC-1W4" collectionClass="NSMutableArray" id="sV6-tX-dAX"/>
+                        <outletCollection property="PCdiceImageViews" destination="exP-7u-1Dk" collectionClass="NSMutableArray" id="sSa-9C-uCH"/>
+                        <outletCollection property="PCdiceImageViews" destination="ClM-Lz-0xE" collectionClass="NSMutableArray" id="vrX-cw-VRg"/>
+                        <outletCollection property="PCdiceImageViews" destination="lcO-ZC-1W4" collectionClass="NSMutableArray" id="jh8-lp-GT9"/>
+                        <outletCollection property="YoudiceImageViews" destination="Jhz-Ir-uGC" collectionClass="NSMutableArray" id="dqb-a8-exq"/>
+                        <outletCollection property="YoudiceImageViews" destination="Gjh-nE-ccg" collectionClass="NSMutableArray" id="aLi-qx-QB0"/>
+                        <outletCollection property="YoudiceImageViews" destination="8k6-4n-GHY" collectionClass="NSMutableArray" id="YdP-sG-ymK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

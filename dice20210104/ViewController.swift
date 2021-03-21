@@ -9,10 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var PCdiceImageViews: [UIImageView]!
     
-    @IBOutlet var diceImageViews: [UIImageView]!
-
+    @IBOutlet var YoudiceImageViews: [UIImageView]!
+    
     @IBOutlet weak var resultImage: UIImageView!
+    var PC = ["dice1","dice2","dice3"]
+    var You = ["dice4","dice5","dice6"]
+    var sumPC = 0
+    var sumYou = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,16 +25,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func actionBtn(_ sender: UIButton) {
-        for imageView in diceImageViews {
+        for imageView in PCdiceImageViews {
         let number = Int.random(in: 1...6)
         imageView.image = UIImage(systemName: "die.face.\(number).fill")
-        var sumPC = 0
-        for i in 1...3{
-            sumPC = sumPC + i
-            print(sumPC)
         }
-        
-        
+        for imageView in YoudiceImageViews {
+        let number = Int.random(in: 1...6)
+        imageView.image = UIImage(systemName: "die.face.\(number).fill")
         }
 
         resultImage.image = UIImage(named: "win")
